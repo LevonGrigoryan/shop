@@ -7,19 +7,22 @@
 
 body{
 	width: 1440px;
+
 	background: red;
 
 
 }
-
-.himnakan__himq{
+ 						
+.himnakan__himq{     
 	margin: auto;
 	width: 1170px;
-	height: 600px;
+	height: 800px;
 	background: #FFF;
 }
 .header-full{
 	width: 100%;
+	height: 220px;
+	background: #fff;
 
 }
 
@@ -39,6 +42,10 @@ body{
 }
 .menu_full_page_li{
 	 cursor: pointer;
+
+}
+.menu_full_page_li:hover{
+	color: red;
 }
  
 .header_logo_menu{
@@ -94,5 +101,38 @@ body{
 .fa{
 	 font-size: 25px;
 	margin: 0px 5px;
+}
+						/* --article-- */
+.sec_a{
+	 
+	width: 100%;
+	height: 600px;
+	 
+
+}
+.a_a{
+	height: 100%;
+	float: left;
+	 
+}.a_b{
+	 
+	 
+	height: 100%;
+	float: left;
+}
+.a_a img{
+	margin: 5px;
+	width: 670px;
+}
+
+.nk_b img{
+	margin: 4px 0px;
+	 width: 490px;
+	  
+
+}
+.nk_c img{
+	width: 490px;
+	margin: 8px 0px;
 }
 
