@@ -1,0 +1,93 @@
+
+/*Մենյուի հիմք */
+nav{	 
+	float:left;
+	margin:10px 0px 0px 0px;
+	padding:1;
+	list-style:none;
+	width: 100%;
+	height: 35px;
+	border:0px solid;
+	background: #fff;
+}
+
+Մենյուն հիմքի մեջ տեղաշարժելու պարամետրեր
+nav ul, nav li{
+width: 130px;
+height: 80px;
+float: left;
+text-align: center;
+list-style: none;
+margin: 0px 0px;
+background:#05AECC;  
+
+} 
+
+ nav li a:link,nav li a:visited,  nav li a:hover{
+ 	height: 69px;
+	display: inline-block;
+	margin: 0  0px 0 0; /*Կոճակների միջև ընկած տարածությունը*/
+	padding:5px 25px; /*Մեծանում է կոճակների չափը */
+	font-size: 14px;
+	text-decoration: none;
+	color: #e4e4e4;
+	border-radius: 1px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	}
+
+/*Թոփմենյուին եզրագծեր տալու համար*/
+ nav ul ul li a:link,  nav ul ul li a:visited{
+	border:1px solid;
+
+	}
+
+ nav li.last a{
+	margin-right:0x;
+}
+
+ nav li a:hover,  nav ul li.active a{
+	color:red;
+	background-color:#fff;
+
+	}
+
+/*Թոփմենու անդամների կարգավորումները*/
+ nav li li a:link, nav li li a:visited{
+	width:100px; /*Թոփմենու անդամների կոճակների լայնությունը*/
+	float:none;
+	margin:5px; /*Թոփմենու անդամների միջև ընկած տարածությունը*/
+	padding:5px 5px 5px 5px; /*Թոփմենու բառերի դիրքը կոչակի մեջ*/
+	font-size:12px;
+	font-weight:bold;
+	color:#003377;
+	background-color:#ffffff;
+	 
+
+	}
+
+ nav li li a:hover{
+	color:#FFFFFF;
+	background-color:#336389;
+}
+/*Թոփմենյուն բացվում է մկնիկը հիմնական կոճակին պահելուց*/
+ nav li ul{
+	position:absolute;
+	left:-999em;
+	height:auto;
+	width:128px;
+	border-left:1px solid gray;
+	border-bottom:1px solid gray;
+	}
+
+ nav li ul a{width:160px;}
+
+ nav li ul ul{margin: -50px 0 0 0;}
+
+ nav li:hover ul ul{left: -999em;}
+
+ nav li:hover ul, nav li li:hover ul{left:auto;}
+
+ nav li:hover{ position: static;}
+
+ nav li.last a{margin-right:0;}
