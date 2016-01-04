@@ -3,7 +3,7 @@
 nav{	 
 	float:left;
 	margin:10px 0px 0px 0px;
-	padding:1;
+	padding:0;
 	list-style:none;
 	width: 100%;
 	height: 35px;
@@ -16,7 +16,7 @@ nav ul, nav li{
 width: 130px;
 height: 80px;
 float: left;
-text-align: center;
+ 
 list-style: none;
 margin: 0px 0px;
 background:#05AECC;  
@@ -24,21 +24,24 @@ background:#05AECC;
 } 
 
  nav li a:link,nav li a:visited,  nav li a:hover{
- 	height: 69px;
+ 	width: 130px;
+ 	height: 70px;
 	display: inline-block;
+	line-height: 4;
 	margin: 0  0px 0 0; /*Կոճակների միջև ընկած տարածությունը*/
-	padding:5px 25px; /*Մեծանում է կոճակների չափը */
+	padding:5px 00px; /*Մեծանում է կոճակների չափը */
 	font-size: 14px;
+	text-align: center;
 	text-decoration: none;
 	color: #e4e4e4;
-	border-radius: 1px;
-	font-family: Tahoma, Geneva, sans-serif;
+ 	font-family: Tahoma, Geneva, sans-serif;
 	font-weight: bold;
 	}
+	 
 
 /*Թոփմենյուին եզրագծեր տալու համար*/
  nav ul ul li a:link,  nav ul ul li a:visited{
-	border:1px solid;
+	border:0px solid;
 
 	}
 
@@ -54,9 +57,9 @@ background:#05AECC;
 
 /*Թոփմենու անդամների կարգավորումները*/
  nav li li a:link, nav li li a:visited{
-	width:100px; /*Թոփմենու անդամների կոճակների լայնությունը*/
-	float:none;
-	margin:5px; /*Թոփմենու անդամների միջև ընկած տարածությունը*/
+	width:250px; /*Թոփմենու անդամների կոճակների լայնությունը*/
+	float:left;
+	margin:0px; /*Թոփմենու անդամների միջև ընկած տարածությունը*/
 	padding:5px 5px 5px 5px; /*Թոփմենու բառերի դիրքը կոչակի մեջ*/
 	font-size:12px;
 	font-weight:bold;
@@ -68,21 +71,20 @@ background:#05AECC;
 
  nav li li a:hover{
 	color:#FFFFFF;
-	background-color:#336389;
+	background-color:#05AECC;
 }
 /*Թոփմենյուն բացվում է մկնիկը հիմնական կոճակին պահելուց*/
  nav li ul{
 	position:absolute;
 	left:-999em;
-	height:auto;
 	width:128px;
-	border-left:1px solid gray;
-	border-bottom:1px solid gray;
+	border-left:0px solid gray;
+	border-bottom:0px solid gray;
 	}
 
  nav li ul a{width:160px;}
 
- nav li ul ul{margin: -50px 0 0 0;}
+ nav li ul ul{margin:  0px 0 0 0;}
 
  nav li:hover ul ul{left: -999em;}
 
@@ -91,3 +93,15 @@ background:#05AECC;
  nav li:hover{ position: static;}
 
  nav li.last a{margin-right:0;}
+
+                  /*-- Նկարներով թոփ մենյու--*/
+
+.top_menu_nkar{
+	width: 60px;
+	position: relative;
+	right: 100px;
+	top: 0px;
+	margin:0px;
+	 
+	 
+} 
