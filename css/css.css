@@ -106,7 +106,7 @@ body{
 .sec_a{
 	 
 	width: 100%;
-	height: 585px;
+	height: 550px;
 	background: #fff;
 	 
 
@@ -184,4 +184,56 @@ body{
 }
 .nk_e img{
 	margin: 5px 0px;
+}
+.new_products{
+	width: 100%;
+	height: 120px;
+	background: #fff;
+}
+.new_tex{
+	display: inline-block;
+	margin: 10px;
+	color: #05AECC;
+	font-size: 2em;
+	font-weight: bold;
+}
+	 
+.a_nn{
+	 margin: 10px;
+	float: left;
+}
+.a_nn:hover{
+	cursor: pointer;
+	background: #ccc;
+	opacity: 0.7;
+}
+.fa_bac{
+	margin: -10px -9px;
+	float: right;
+	width: 130px;
+	height: 40px;
+	 
+}
+.fa-chevron-left{
+	background:#05AECC; 
+}
+.fa-chevron-right{
+	background:#272822; 
+}
+
+.fa-chevron-left,.fa-chevron-right{
+	width: 60px;
+	height: 70px;
+	margin: 1px;
+	color: #fff;
+	line-height: 70px;
+	text-align: center;
+	font-size: 20px;
+	float: left;
+	display: inline-block;
+}
+.fa-chevron-left:hover,.fa-chevron-right:hover{
+	background: #ccc;
+	opacity: 0.9;
+	cursor: pointer;
 }
