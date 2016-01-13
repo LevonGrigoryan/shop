@@ -7,7 +7,7 @@
 
 body{
 	width: 1440px;
-	background: red;
+	
 }
 .clear{
 	clear: both;
@@ -338,30 +338,108 @@ body{
 	box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
 
 }
+                              /* --article 05-- */
+
 footer{
 	width: 100%;
 	background: #fff;
+
 }
 .foot_table{
-	margin:0px 50px;
+	width: 100%;
+	padding: 8px;
 }
 .foot_tabl_tr{
-	
+	font-weight: bold;
 	height: 40px;
  
 }
 .foot_table td{
+	border:0px solid;
 	font-size: 20px;
 	width: 270px;
 	
+}
+
+.foot_table td a{
+	text-decoration: none;
+	color: #434343;
+}
+.foot_table td a:hover{
+	color:#05AECC;
+	font-weight: bold;
+}
+.keep_block{
+	border:1px solid #ccc;
+}
+.e_g{
+	display: inline-block;
+	font-size: 13px;
+	text-transform:uppercase; 
+	margin: 30px;
+}
+.keep_in-touch{
+	display: inline-block;
+	font-size: 13px;
+	text-transform:uppercase; 
+	margin: 30px 0px;
+}
+
+.keep_td_td{
+
+	border:1px solid #ccc;
+	color: #ccc;
+}
+.keep_td_td:hover{
+	background: #05AECC;
+	cursor: pointer;
+	color: #fff;
+}
+
+.tab_keep{
+	width: 100%;
+	height: 50px;
+	border:0px solid;
+	text-align: center;
+}
+
+.mod_wifi{
+	background: #F8BC2E;
+}
+
+.mod_facebook{
+	background: #39599F;
+}
+
+.mod_twitter{
+	background: #45B0E3;
+
+}
+
+.mod_flickr{
+
+}
+
+.mod_google{
+	background: #1872BF;
+}
+
+.button_Subscribe_now{
+	color: #fff;
+	font-size: 13px;
+	width: 100%;
+	height: 45px;
+	background: #05AECC;
+	font
+}
+
+.button_Subscribe_now:hover{
+	cursor: pointer;
+	box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
 }
 
 .copy{
 	width: 100%;
 	display: inline-block;
 	 margin: 20px 50px;
-}
-.foot_table td a{
-	text-decoration: none;
-	color: #434343;
 }
