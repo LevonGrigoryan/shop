@@ -7,10 +7,10 @@
 
 body{
 	width: 1440px;
-
 	background: red;
-
-
+}
+.clear{
+	clear: both;
 }
  						
 .himnakan__himq{     
@@ -313,3 +313,57 @@ body{
 	cursor: pointer;
 	color:#05AECC;
  }
+ .new_tex_lorem{
+ 	margin: 15px;
+ 	display: inline-block;
+ 	text-align: justify;
+ }
+.sec_e{
+	 
+	width: 100%;
+	background: #fff;
+}
+.button_register_now{
+	color: #fff;
+	font-size: 25px;
+	 
+	margin: 0px 300px;
+	width: 550px;
+	height: 60px;
+	background: #05AECC;
+	font
+}
+.button_register_now:hover{
+	cursor: pointer;
+	box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+
+}
+footer{
+	width: 100%;
+	background: #fff;
+}
+.foot_table{
+	margin:0px 50px;
+}
+.foot_tabl_tr{
+	
+	height: 40px;
+ 
+}
+.foot_table td{
+	font-size: 20px;
+	width: 270px;
+	
+}
+
+.copy{
+	width: 100%;
+	display: inline-block;
+	 margin: 20px 50px;
+}
+.foot_table td a{
+	text-decoration: none;
+	color: #000;
+	 
+	
+}
